@@ -1,4 +1,3 @@
-::: {align="center"}
 # 🛍️ ShopKart
 
 ### A Full-Stack MERN E-Commerce Application
@@ -51,6 +50,7 @@ configuration before demonstrating each feature.
   API testing       Postman
   Payments          Razorpay (where configured)
   Version control   Git, GitHub
+  
 🗂️ Project Structure
 The project is organized into separate frontend and backend
 applications. A typical layout is:
@@ -61,6 +61,7 @@ shopKart/
 └── README.md
 The exact file and folder names may differ slightly in the current
 repository.
+
 ⚙️ Prerequisites
 Before you begin, install:
 - Node.js (LTS) and npm
@@ -69,6 +70,8 @@ Before you begin, install:
   MongoDB Atlas cluster
 - Git
 - Postman (optional, for API testing)
+
+- 
 🚀 Getting Started
 1. Clone the repository
 git clone https://github.com/shambhavishareshtha/shopKart.git
@@ -112,6 +115,7 @@ API client/configuration file and create a local frontend/.env file
 using the exact variable name expected by the code. In Vite, variables
 prefixed with VITE_ are exposed to the browser, so never put secrets
 in them.
+
 🗄️ Database Setup
 ShopKart uses MongoDB with Mongoose for database operations.
 1. Start your local MongoDB service, or create a MongoDB Atlas cluster.
@@ -124,6 +128,7 @@ ShopKart uses MongoDB with Mongoose for database operations.
    then confirm that the data persists in MongoDB.
 The backend includes customer and product data models. Cart and wishlist
 operations associate products with a customer account.
+
 🔌 API Overview
 The backend groups its REST API routes by resource:
   Route prefix                        Purpose
@@ -138,6 +143,7 @@ For exact endpoint paths, request bodies, response formats, and
 authentication requirements, refer to the backend route and controller
 files. You can test the endpoints with Postman while the backend is
 running.
+
 🔐 Security Checklist
 Before pushing changes to GitHub:
 - [ ] .env files are excluded by .gitignore.
@@ -166,6 +172,7 @@ local copy:
 git rm --cached backend/.env
 Only run that command if the file exists at that path and is tracked by
 Git.
+
 ✅ Testing Before Submission
 - [ ] Latest frontend and backend code is pushed to GitHub.
 - [ ] Frontend and backend dependencies install successfully.
@@ -179,6 +186,7 @@ Git.
   included.
 - [ ] No .env files, API keys, or secrets are tracked by Git.
 - [ ] README.md is committed at the repository root.
+      
 👩‍💻 Author
 Shambhavi Shareshtha
 GitHub: @shambhavishareshtha
